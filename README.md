@@ -36,5 +36,14 @@ export OPENAI_API_KEY=<your_api_key>
 ## Running the Code
 Please use the following command to run the code:
 ```bash
-python bundle.py --device <your_gpu_id> --dataset <the_dataset_to_run> --bundle_size 5 --num_samples 100 --sample_criterion <neighbor_or_feature_depends_on_the_dataset>  --query_type gpt --model <the_name_of_GPT> --loss_type ranking --gnn_type gcn --stages 300 100 100 --lr 0.001 --wd 0.001 --resample
+python bundle.py --device 6 --dataset bookchild --bundle_size 5 --num_samples 100 --sample_criterion neighbor --max_hop 3 --query_type gpt --model gpt-4o --loss_type ranking --gnn_type gcn --stages 300 100 100 --valid --lr 0.001 --wd 0.001 --resample --repeat 1
+python bundle.py --device 6 --dataset citeseer --bundle_size 5 --num_samples 100 --sample_criterion neighbor --max_hop 2 --query_type gpt --model gpt-4o --loss_type ranking --gnn_type sage --stages 300 100 100 --valid --lr 0.001 --wd 0.001 --resample --repeat 1
+python bundle.py --device 6 --dataset cora --bundle_size 5 --num_samples 100 --sample_criterion neighbor --max_hop 2 --query_type gpt --model gpt-4o --loss_type ranking --gnn_type gin --stages 400 100 100 --valid --lr 0.001 --wd 0.001 --resample --repeat 1
+python bundle.py --device 0 --dataset cornell --bundle_size 5 --num_samples 100 --sample_criterion feature --max_hop 3 --query_type gpt --model gpt-4o --loss_type ranking --gnn_type glognn --num_layers 1 --stages 300 100 100 --valid --lr 0.001 --wd 0.001 --resample --repeat 1
+python bundle.py --device 0 --dataset bookhis --bundle_size 5 --num_samples 100 --sample_criterion neighbor --max_hop 2 --query_type gpt --model gpt-4o --loss_type ranking --gnn_type gcn --stages 300 100 100 --valid --lr 0.001 --wd 0.001 --resample --repeat 1
+python bundle.py --device 6 --dataset sportsfit --bundle_size 5 --num_samples 100 --sample_criterion neighbor --max_hop 3 --query_type gpt --model gpt-4o --loss_type ranking --gnn_type gcn --stages 300 100 100 --valid --lr 0.001 --wd 0.001 --resample --repeat 1
+python bundle.py --device 0 --dataset texas --bundle_size 5 --num_samples 100 --sample_criterion feature --max_hop 3 --query_type gpt --model gpt-4o --loss_type ranking --gnn_type glognn --num_layers 1 --stages 300 100 100 --valid --lr 0.001 --wd 0.001 --resample --repeat 1
+python bundle.py --device 0 --dataset washington --bundle_size 5 --num_samples 100 --sample_criterion feature --max_hop 3 --query_type gpt --model gpt-4o --loss_type ranking --gnn_type glognn --num_layers 1 --stages 300 100 100 --valid --lr 0.001 --wd 0.001 --resample --repeat 1
+python bundle.py --device 6 --dataset wikics --bundle_size 5 --num_samples 100 --sample_criterion hybrid --max_hop 2 --query_type gpt --model gpt-4o --loss_type ranking --gnn_type sage --num_layers 3 --dropout 0 --edge_dropping 0 --stages 400 100 100 100 100 --valid --lr 0.001 --wd 0.001 --resample --repeat 1
+python bundle.py --device 0 --dataset wisconsin --bundle_size 5 --num_samples 100 --sample_criterion feature --max_hop 3 --query_type gpt --model gpt-4o --loss_type ranking --gnn_type glognn --num_layers 1 --stages 300 100 100 --valid --lr 0.001 --wd 0.001 --resample --repeat 1
 ```
