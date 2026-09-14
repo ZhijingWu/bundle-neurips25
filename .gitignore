@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.bak
+
+dataset/*
+!dataset/.gitkeep
+
+results/
+output/
+cache/
+.cache/
+
+.env
+*.key
