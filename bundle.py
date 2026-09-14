@@ -58,7 +58,7 @@ class Solver:
             bundles.append(bundle_nodes)
         
         # batched query
-        bundles, bundle_classes, _ = self.batch_bundle_query(bundles, self.args.query_type)
+        bundles, bundle_classes = self.batch_bundle_query(bundles, self.args.query_type)
 
         if len(bundles) == 0:
             print("No valid bundles found.")
@@ -67,26 +67,24 @@ class Solver:
     def batch_bundle_query(self, bundles, query_type):
         def query_helper(bundle_nodes, query_type):
             bundle_class = self.bundle_query(bundle_nodes, query_type)
-            bundle_class_optimal = self.bundle_query(bundle_nodes, 'optimal')
             if bundle_class < 0:
                 return None
-            return bundle_nodes, bundle_class, bundle_class_optimal
-        
+            return bundle_nodes, bundle_class
+
         new_bundles = []
         new_bundle_classes = []
-        new_bundle_classes_optimal = []
-        with ThreadPoolExecutor(max_workers=8) as executor:
+
+        with ThreadPoolExecutor(max_workers=1) as executor:
             futures = [executor.submit(query_helper, bundle, query_type) for bundle in bundles]
             for f in tqdm.tqdm(as_completed(futures), total=len(bundles), desc='Bundle Query'):
                 result = f.result()
                 if result is not None:
-                    bundle_nodes, bundle_class, bundle_class_optimal = result
+                    bundle_nodes, bundle_class = result
                     new_bundles.append(bundle_nodes)
                     new_bundle_classes.append(bundle_class)
-                    new_bundle_classes_optimal.append(bundle_class_optimal)
-        # print bundle stats
-        self.bundle_accuracy(new_bundles, new_bundle_classes, new_bundle_classes_optimal)
-        return new_bundles, new_bundle_classes, new_bundle_classes_optimal
+
+        self.bundle_accuracy(new_bundles, new_bundle_classes)
+        return new_bundles, new_bundle_classes
 
     
     def bundle_accuracy(self, bundles, bundle_classes):
@@ -102,7 +100,7 @@ class Solver:
         print(f"Bundle valid rate: {bundle_valid_rate:.4f}%, Bundle class acc: {bundle_class_acc:.4f}%")
         return bundle_valid_rate, bundle_class_acc
 
-    def bundle_optimize(self, bundles, bundle_classes, num_epochs, previous_best_metric, best_path):
+    def bundle_optimize(self, bundles, bundle_classes, num_epochs):
         # optimize the model
         self.model.train().to(self.device)
         self.graph_data.to(self.device)
@@ -117,7 +115,7 @@ class Solver:
             loss.backward()
             optimizer.step()
 
-        return previous_best_metric, best_path
+        return
 
     
     def bundle_sample(self, bundle_size, sample_criterion='neighbor'):
@@ -153,7 +151,7 @@ class Solver:
         mode_label = torch.mode(individual_labels).values.item()
         if query_type == 'gpt':
             text_list = [self.raw_texts[node] for node in bundle]
-            bundle_pred = self.query_helper.query(text_list, mode_label)
+            bundle_pred = self.query_helper.query(text_list)
             return bundle_pred
         else:
             raise NotImplementedError(f"Query type {query_type} is not implemented.")
