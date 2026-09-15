@@ -63,6 +63,70 @@ class Solver:
         if len(bundles) == 0:
             print("No valid bundles found.")
         return bundles, bundle_classes
+
+    def bundle_resample(self, bundles, bundle_classes, requery=False):
+        """
+        Refine each bundle by removing the node with the lowest
+        GNN confidence for the current bundle label.
+        """
+
+        print(f"[Refinement] Starting with {len(bundles)} bundles")
+
+        self.model.eval()
+
+        with torch.no_grad():
+            logits = self.model(
+                self.init_embs.to(self.device),
+                self.graph_data.edge_index.to(self.device)
+            )
+            probs = F.softmax(logits, dim=1)
+
+        new_bundles = []
+        new_bundle_classes = []
+
+        for bundle, bundle_class in zip(bundles, bundle_classes):
+
+            # A bundle with <= 1 node cannot be refined further.
+            if len(bundle) <= 1:
+                continue
+
+            bundle_tensor = torch.tensor(
+                bundle,
+                dtype=torch.long,
+                device=self.device
+            )
+
+            # Confidence of every node for the LLM-provided bundle label.
+            label_confidence = probs[bundle_tensor, bundle_class]
+
+            # Remove the least confident node.
+            remove_idx = torch.argmin(label_confidence).item()
+
+            refined_bundle = [
+                node
+                for i, node in enumerate(bundle)
+                if i != remove_idx
+            ]
+
+            new_bundles.append(refined_bundle)
+            new_bundle_classes.append(bundle_class)
+
+        self.model.train()
+
+        # Optionally query the LLM again for the refined bundles.
+        if requery:
+            new_bundles, new_bundle_classes = self.batch_bundle_query(
+                new_bundles,
+                self.args.query_type
+            )
+
+        print(
+            f"[Refinement] Bundle sizes: "
+            f"{[len(b) for b in bundles]} -> "
+            f"{[len(b) for b in new_bundles]}"
+        )
+
+        return new_bundles, new_bundle_classes
     
     def batch_bundle_query(self, bundles, query_type):
         def query_helper(bundle_nodes, query_type):
@@ -173,7 +237,16 @@ class Solver:
                 bundle_classes
             ]  # shape: (num_samples, )
             bundle_prob_max = torch.max(bundle_prob_mean, dim=1).values  # shape: (num_samples, )
-            loss = -torch.clamp(bundle_prob_class.log() - bundle_prob_max.log(), max=0).sum() + F.cross_entropy(torch.mean(bundle_logits, dim=1))
+            loss = (
+                -torch.clamp(
+                    bundle_prob_class.log() - bundle_prob_max.log(),
+                    max=0
+                ).sum()
+                + F.cross_entropy(
+                    torch.mean(bundle_logits, dim=1),
+                    bundle_classes
+                )
+            )
             return loss
         else:
             raise NotImplementedError(f"Loss type {loss_type} is not implemented.")

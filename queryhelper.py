@@ -75,16 +75,36 @@ class QueryHelper:
     
     def generate(self, prompt):
         prompt_key = json.dumps(prompt, sort_keys=True)
+
         if prompt_key in self.cache:
             return self.cache[prompt_key]
-        client = OpenAI()
-        completion = client.chat.completions.create(
-            model=self.llm_name,
-            messages=prompt
+
+        client = OpenAI(
+            timeout=60.0,
+            max_retries=2,
         )
-        response = completion.choices[0].message.content
-        self.cache[prompt_key] = response
-        return response
+
+        try:
+            completion = client.chat.completions.create(
+                model=self.llm_name,
+                messages=prompt,
+            )
+
+            response = completion.choices[0].message.content
+
+            self.cache[prompt_key] = response
+
+            # Persist successful queries immediately so an interrupted
+            # reproduction run can reuse completed LLM requests.
+            if not self.args.disable_cache:
+                with open(self.args.cache_file, "wb") as f:
+                    pickle.dump(self.cache, f)
+
+            return response
+
+        except Exception as e:
+            print(f"[LLM Query Failed] {type(e).__name__}: {e}")
+            return ""
     
     def catch_answer(self, content):
         answer = -1
