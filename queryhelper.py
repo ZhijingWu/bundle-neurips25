@@ -3,6 +3,8 @@ import re
 import json
 import os
 from openai import OpenAI
+import time
+import random
 
 class QueryHelper:
     prompt_dict = {
@@ -50,11 +52,17 @@ class QueryHelper:
         prompt = self.prepare_prompt(text_list)
         response = self.generate(prompt)
 
+        # Defensive handling for failed API requests.
+        # Keep the existing convention: negative label means invalid query.
+        if not isinstance(response, str) or not response.strip():
+            return -1
+
         final_answer_match = re.findall(r'Final Answer:\s*(.+)', response)
         if final_answer_match:
             content = final_answer_match[-1].strip()
         else:
             content = response
+
         answer = self.catch_answer(content)
         return answer
     
@@ -79,32 +87,50 @@ class QueryHelper:
         if prompt_key in self.cache:
             return self.cache[prompt_key]
 
-        client = OpenAI(
-            timeout=60.0,
-            max_retries=2,
-        )
+        client = OpenAI()
+        max_retries = 8
 
-        try:
-            completion = client.chat.completions.create(
-                model=self.llm_name,
-                messages=prompt,
-            )
+        for attempt in range(max_retries):
+            try:
+                completion = client.chat.completions.create(
+                    model=self.llm_name,
+                    messages=prompt,
+                    timeout=60,
+                )
 
-            response = completion.choices[0].message.content
+                response = completion.choices[0].message.content
 
-            self.cache[prompt_key] = response
+                if not isinstance(response, str) or not response.strip():
+                    print("[LLM Query Failed] empty or non-string response")
+                    return None
 
-            # Persist successful queries immediately so an interrupted
-            # reproduction run can reuse completed LLM requests.
-            if not self.args.disable_cache:
-                with open(self.args.cache_file, "wb") as f:
-                    pickle.dump(self.cache, f)
+                self.cache[prompt_key] = response
+                return response
 
-            return response
+            except Exception as e:
+                error_text = str(e).lower()
 
-        except Exception as e:
-            print(f"[LLM Query Failed] {type(e).__name__}: {e}")
-            return ""
+                if (
+                    "429" in error_text
+                    or "rate limit" in error_text
+                    or "timed out" in error_text
+                    or "timeout" in error_text
+                ):
+                    wait_time = min(60, 5 * (2 ** attempt)) + random.uniform(0, 2)
+
+                    print(
+                        f"[LLM Retry] attempt {attempt + 1}/{max_retries}, "
+                        f"waiting {wait_time:.1f}s: {type(e).__name__}"
+                    )
+
+                    time.sleep(wait_time)
+                    continue
+
+                print(f"[LLM Query Failed] {type(e).__name__}: {e}")
+                return None
+
+        print("[LLM Query Failed] maximum retries exceeded")
+        return None
     
     def catch_answer(self, content):
         answer = -1
