@@ -12,3 +12,4 @@ cache/
 
 .env
 *.key
+reproduction_logs/
