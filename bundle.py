@@ -222,27 +222,122 @@ class Solver:
         core_node = random.choice(range(len(self.graph_data.y)))
         bundle_nodes = [core_node]
 
-        # sample bundle
+        # ---------------------------------------------------------
+        # 1. Topological proximity
+        # ---------------------------------------------------------
         if sample_criterion == 'neighbor':
             for hop_num in range(1, self.args.max_hop + 1):
-                khop_subset, _, _, _ = k_hop_subgraph(core_node, hop_num, self.graph_data.edge_index, num_nodes=self.graph_data.num_nodes)
+                khop_subset, _, _, _ = k_hop_subgraph(
+                    core_node,
+                    hop_num,
+                    self.graph_data.edge_index,
+                    num_nodes=self.graph_data.num_nodes
+                )
+
                 khop_subset = khop_subset.tolist()
+
                 if core_node in khop_subset:
                     khop_subset.remove(core_node)
+
                 if len(khop_subset) >= bundle_size - 1:
                     break
+
             if len(khop_subset) < bundle_size - 1:
                 return self.bundle_sample(bundle_size, sample_criterion)
-            else:
-                candidate_nodes = list(khop_subset)
-                additional_nodes = random.sample(candidate_nodes, bundle_size - len(bundle_nodes))
-                bundle_nodes.extend(additional_nodes)
+
+            additional_nodes = random.sample(
+                khop_subset,
+                bundle_size - 1
+            )
+
+            bundle_nodes.extend(additional_nodes)
+
+        # ---------------------------------------------------------
+        # 2. Semantic proximity
+        # ---------------------------------------------------------
         elif sample_criterion == 'feature':
-            # find bundle_size similar nodes
             distances = self.feature_similarity[core_node]
+
             bundle_nodes = torch.argsort(distances)[:bundle_size].tolist()
+
+        # ---------------------------------------------------------
+        # 3. Hybrid: topology + semantics
+        # ---------------------------------------------------------
+        elif sample_criterion == 'hybrid':
+
+            alpha = getattr(self.args, 'hybrid_alpha', 0.5)
+
+            num_to_sample = bundle_size - 1
+
+            # alpha controls the fraction selected by topology
+            num_neighbor = round(alpha * num_to_sample)
+            num_feature = num_to_sample - num_neighbor
+
+            # -------------------------
+            # Topological candidates
+            # -------------------------
+            khop_subset = []
+
+            for hop_num in range(1, self.args.max_hop + 1):
+                khop_subset, _, _, _ = k_hop_subgraph(
+                    core_node,
+                    hop_num,
+                    self.graph_data.edge_index,
+                    num_nodes=self.graph_data.num_nodes
+                )
+
+                khop_subset = khop_subset.tolist()
+
+                if core_node in khop_subset:
+                    khop_subset.remove(core_node)
+
+                if len(khop_subset) >= num_neighbor:
+                    break
+
+            # Not enough topological candidates
+            if len(khop_subset) < num_neighbor:
+                return self.bundle_sample(bundle_size, sample_criterion)
+
+            if num_neighbor > 0:
+                neighbor_nodes = random.sample(
+                    khop_subset,
+                    num_neighbor
+                )
+            else:
+                neighbor_nodes = []
+
+            # -------------------------
+            # Semantic candidates
+            # -------------------------
+            distances = self.feature_similarity[core_node]
+
+            semantic_order = torch.argsort(distances).tolist()
+
+            # Remove core + already selected topology nodes
+            excluded = set([core_node] + neighbor_nodes)
+
+            semantic_candidates = [
+                node
+                for node in semantic_order
+                if node not in excluded
+            ]
+
+            if len(semantic_candidates) < num_feature:
+                return self.bundle_sample(bundle_size, sample_criterion)
+
+            feature_nodes = semantic_candidates[:num_feature]
+
+            # -------------------------
+            # Construct hybrid bundle
+            # -------------------------
+            bundle_nodes.extend(neighbor_nodes)
+            bundle_nodes.extend(feature_nodes)
+
         else:
-            raise NotImplementedError(f"Sample criterion {sample_criterion} is not implemented.")
+            raise NotImplementedError(
+                f"Sample criterion {sample_criterion} is not implemented."
+            )
+
         return bundle_nodes
     
     def bundle_query(self, bundle, query_type):
@@ -327,7 +422,18 @@ def main():
     parser.add_argument('--expid', type=str, default='trial', help='experiment id')
     parser.add_argument('--cache_file', type=str, default=None, help='cache file')
     parser.add_argument('--disable_cache', action='store_true', help='disable cache')
+
+    parser.add_argument(
+        '--hybrid_alpha',
+        type=float,
+        default=0.5,
+        help='Fraction of non-core bundle nodes sampled by topological proximity in hybrid sampling.'
+    )
+    
     args = parser.parse_args()
+
+    if not 0.0 <= args.hybrid_alpha <= 1.0:
+        raise ValueError("--hybrid_alpha must be between 0 and 1.")
 
     if args.cache_file is None:
         args.cache_file = f'./cache/{args.dataset}_{args.model}.pkl'

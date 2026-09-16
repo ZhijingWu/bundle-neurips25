@@ -84,6 +84,7 @@ class QueryHelper:
     def generate(self, prompt):
         prompt_key = json.dumps(prompt, sort_keys=True)
 
+        # 1. Cache hit
         if prompt_key in self.cache:
             return self.cache[prompt_key]
 
@@ -100,32 +101,65 @@ class QueryHelper:
 
                 response = completion.choices[0].message.content
 
+                # Empty / invalid response:
+                # treat it as a transient failure and retry.
                 if not isinstance(response, str) or not response.strip():
+                    if attempt < max_retries - 1:
+                        wait_time = min(60, 5 * (2 ** attempt)) + random.uniform(0, 2)
+
+                        print(
+                            f"[LLM Retry] attempt {attempt + 1}/{max_retries}, "
+                            f"waiting {wait_time:.1f}s: empty response"
+                        )
+
+                        time.sleep(wait_time)
+                        continue
+
                     print("[LLM Query Failed] empty or non-string response")
                     return None
 
+                # 2. Success -> cache
                 self.cache[prompt_key] = response
                 return response
 
             except Exception as e:
                 error_text = str(e).lower()
 
-                if (
+                # Retry transient API / gateway failures
+                retryable = (
                     "429" in error_text
                     or "rate limit" in error_text
                     or "timed out" in error_text
                     or "timeout" in error_text
-                ):
-                    wait_time = min(60, 5 * (2 ** attempt)) + random.uniform(0, 2)
+                    or "500" in error_text
+                    or "502" in error_text
+                    or "503" in error_text
+                    or "504" in error_text
+                    or "cloudflare" in error_text
+                    or "bad gateway" in error_text
+                    or "service unavailable" in error_text
+                    or "gateway timeout" in error_text
+                )
+
+                if retryable:
+                    if attempt < max_retries - 1:
+                        wait_time = min(60, 5 * (2 ** attempt)) + random.uniform(0, 2)
+
+                        print(
+                            f"[LLM Retry] attempt {attempt + 1}/{max_retries}, "
+                            f"waiting {wait_time:.1f}s: {type(e).__name__}"
+                        )
+
+                        time.sleep(wait_time)
+                        continue
 
                     print(
-                        f"[LLM Retry] attempt {attempt + 1}/{max_retries}, "
-                        f"waiting {wait_time:.1f}s: {type(e).__name__}"
+                        f"[LLM Query Failed] maximum retries exceeded: "
+                        f"{type(e).__name__}: {e}"
                     )
+                    return None
 
-                    time.sleep(wait_time)
-                    continue
-
+                # Non-transient error: do not retry
                 print(f"[LLM Query Failed] {type(e).__name__}: {e}")
                 return None
 
