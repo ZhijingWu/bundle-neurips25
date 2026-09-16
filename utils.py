@@ -50,6 +50,9 @@ def prepare_model(model_type: str, num_classes: int, num_layers: int = 2, args=N
     if model_type == 'gcn':
         from torch_geometric.nn.models import GCN
         model = GCN(in_channels=4096, out_channels=num_classes, hidden_channels=512, num_layers=num_layers, jk='cat', dropout=args.dropout)
+    elif model_type == 'gin':
+        from torch_geometric.nn.models import GIN
+        model = GIN(in_channels=4096, out_channels=num_classes, hidden_channels=512, num_layers=num_layers, jk='cat', dropout=args.dropout)
     elif model_type == 'glognn':
         from model.mlpnorm import get_mlpnorm
         model = get_mlpnorm(args.dataset, feature_dim=4096, hidden_dim=512, class_dim=num_classes)

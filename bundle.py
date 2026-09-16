@@ -85,8 +85,6 @@ class Solver:
         new_bundle_classes = []
 
         for bundle, bundle_class in zip(bundles, bundle_classes):
-
-            # A bundle with <= 1 node cannot be refined further.
             if len(bundle) <= 1:
                 continue
 
@@ -101,6 +99,44 @@ class Solver:
 
             # Remove the least confident node.
             remove_idx = torch.argmin(label_confidence).item()
+            removed_node = bundle[remove_idx]
+
+            # ---- Refinement diagnostics: observation only ----
+            true_labels = self.graph_data.y[bundle_tensor].detach().cpu().tolist()
+            confidences = label_confidence.detach().cpu().tolist()
+
+            purity_before = sum(
+                int(label == bundle_class) for label in true_labels
+            ) / len(true_labels)
+
+            remaining_true_labels = [
+                label
+                for i, label in enumerate(true_labels)
+                if i != remove_idx
+            ]
+
+            purity_after = sum(
+                int(label == bundle_class) for label in remaining_true_labels
+            ) / len(remaining_true_labels)
+
+            print(f"\n[Refinement Diagnostic]")
+            print(f"LLM bundle label: {bundle_class}")
+
+            for i, (node, true_label, confidence) in enumerate(
+                zip(bundle, true_labels, confidences)
+            ):
+                marker = " <-- removed" if i == remove_idx else ""
+                print(
+                    f"node={node}  "
+                    f"true={true_label}  "
+                    f"confidence={confidence:.4f}"
+                    f"{marker}"
+                )
+
+            print(
+                f"purity: {purity_before:.4f} -> {purity_after:.4f}  "
+                f"(delta={purity_after - purity_before:+.4f})"
+            )
 
             refined_bundle = [
                 node
@@ -113,7 +149,6 @@ class Solver:
 
         self.model.train()
 
-        # Optionally query the LLM again for the refined bundles.
         if requery:
             new_bundles, new_bundle_classes = self.batch_bundle_query(
                 new_bundles,

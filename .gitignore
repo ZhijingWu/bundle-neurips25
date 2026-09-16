@@ -5,7 +5,10 @@ __pycache__/
 dataset/*
 !dataset/.gitkeep
 
-results/
+results/*
+!results/baselines/
+!results/baselines/**
+
 output/
 cache/
 .cache/

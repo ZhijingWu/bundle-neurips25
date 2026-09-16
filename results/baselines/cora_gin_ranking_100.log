@@ -1,0 +1,1707 @@
+Bundle Query:   0%|          | 0/100 [00:00<?, ?it/s]Bundle Query:   1%|          | 1/100 [00:10<17:18, 10.49s/it]Bundle Query:   2%|▏         | 2/100 [00:16<13:04,  8.01s/it]Bundle Query:   3%|▎         | 3/100 [01:23<56:18, 34.83s/it]Bundle Query:   4%|▍         | 4/100 [02:31<1:16:56, 48.09s/it]Bundle Query:   5%|▌         | 5/100 [02:39<52:51, 33.38s/it]  Bundle Query:   6%|▌         | 6/100 [03:47<1:11:03, 45.36s/it]Bundle Query:   7%|▋         | 7/100 [03:53<50:13, 32.41s/it]  Bundle Query:   8%|▊         | 8/100 [04:04<39:02, 25.46s/it]Bundle Query:   9%|▉         | 9/100 [05:19<1:02:12, 41.02s/it]Bundle Query:  10%|█         | 10/100 [06:26<1:13:48, 49.20s/it]Bundle Query:  11%|█         | 11/100 [06:41<57:27, 38.74s/it]  Bundle Query:  12%|█▏        | 12/100 [07:48<1:09:12, 47.19s/it]Bundle Query:  13%|█▎        | 13/100 [07:53<50:02, 34.52s/it]  Bundle Query:  14%|█▍        | 14/100 [09:00<1:03:15, 44.13s/it]Bundle Query:  15%|█▌        | 15/100 [09:06<46:19, 32.70s/it]  Bundle Query:  16%|█▌        | 16/100 [10:12<1:00:01, 42.87s/it]Bundle Query:  17%|█▋        | 17/100 [10:19<44:19, 32.04s/it]  Bundle Query:  18%|█▊        | 18/100 [11:25<57:45, 42.27s/it]Bundle Query:  19%|█▉        | 19/100 [12:34<1:07:44, 50.18s/it]Bundle Query:  20%|██        | 20/100 [12:40<49:15, 36.94s/it]  Bundle Query:  21%|██        | 21/100 [13:57<1:04:36, 49.07s/it]Bundle Query:  22%|██▏       | 22/100 [15:06<1:11:33, 55.04s/it]Bundle Query:  23%|██▎       | 23/100 [15:13<51:52, 40.42s/it]  Bundle Query:  24%|██▍       | 24/100 [16:19<1:01:01, 48.18s/it]Bundle Query:  25%|██▌       | 25/100 [16:26<44:54, 35.92s/it]  Bundle Query:  26%|██▌       | 26/100 [17:38<57:34, 46.69s/it]Bundle Query:  27%|██▋       | 27/100 [17:45<42:18, 34.77s/it]Bundle Query:  28%|██▊       | 28/100 [18:53<53:40, 44.73s/it]Bundle Query:  29%|██▉       | 29/100 [18:59<39:06, 33.05s/it]Bundle Query:  30%|███       | 30/100 [20:06<50:31, 43.31s/it]Bundle Query:  31%|███       | 31/100 [20:13<37:20, 32.47s/it]Bundle Query:  32%|███▏      | 32/100 [20:19<27:52, 24.60s/it]Bundle Query:  33%|███▎      | 33/100 [21:25<41:14, 36.93s/it]Bundle Query:  34%|███▍      | 34/100 [22:33<50:59, 46.36s/it]Bundle Query:  35%|███▌      | 35/100 [22:38<36:40, 33.86s/it]Bundle Query:  36%|███▌      | 36/100 [23:45<46:33, 43.64s/it]Bundle Query:  37%|███▋      | 37/100 [24:50<52:30, 50.01s/it]Bundle Query:  38%|███▊      | 38/100 [25:55<56:34, 54.75s/it]Bundle Query:  39%|███▉      | 39/100 [26:06<42:21, 41.66s/it]Bundle Query:  40%|████      | 40/100 [27:14<49:32, 49.54s/it]Bundle Query:  41%|████      | 41/100 [27:22<36:15, 36.88s/it]Bundle Query:  42%|████▏     | 42/100 [27:32<27:59, 28.96s/it]Bundle Query:  43%|████▎     | 43/100 [27:42<22:09, 23.33s/it]Bundle Query:  44%|████▍     | 44/100 [28:49<33:59, 36.42s/it]Bundle Query:  45%|████▌     | 45/100 [29:55<41:21, 45.11s/it]Bundle Query:  46%|████▌     | 46/100 [30:00<29:50, 33.15s/it]Bundle Query:  47%|████▋     | 47/100 [31:08<38:29, 43.58s/it]Bundle Query:  48%|████▊     | 48/100 [31:18<29:05, 33.57s/it]Bundle Query:  49%|████▉     | 49/100 [32:24<36:42, 43.19s/it]Bundle Query:  50%|█████     | 50/100 [32:34<27:38, 33.17s/it]Bundle Query:  51%|█████     | 51/100 [32:38<19:57, 24.44s/it]Bundle Query:  52%|█████▏    | 52/100 [32:46<15:41, 19.61s/it]Bundle Query:  53%|█████▎    | 53/100 [33:53<26:32, 33.89s/it]Bundle Query:  54%|█████▍    | 54/100 [34:00<19:42, 25.71s/it]Bundle Query:  55%|█████▌    | 55/100 [35:07<28:31, 38.03s/it]Bundle Query:  56%|█████▌    | 56/100 [36:14<34:25, 46.93s/it]Bundle Query:  57%|█████▋    | 57/100 [36:22<25:17, 35.28s/it]Bundle Query:  58%|█████▊    | 58/100 [37:29<31:15, 44.66s/it]Bundle Query:  59%|█████▉    | 59/100 [37:34<22:18, 32.65s/it]Bundle Query:  60%|██████    | 60/100 [38:39<28:22, 42.55s/it]Bundle Query:  61%|██████    | 61/100 [38:44<20:18, 31.24s/it]Bundle Query:  62%|██████▏   | 62/100 [39:50<26:28, 41.81s/it]Bundle Query:  63%|██████▎   | 63/100 [40:57<30:25, 49.35s/it]Bundle Query:  64%|██████▍   | 64/100 [42:03<32:28, 54.13s/it]Bundle Query:  65%|██████▌   | 65/100 [42:10<23:26, 40.19s/it]Bundle Query:  66%|██████▌   | 66/100 [43:19<27:31, 48.58s/it]Bundle Query:  67%|██████▋   | 67/100 [43:27<20:08, 36.61s/it]Bundle Query:  68%|██████▊   | 68/100 [43:35<14:53, 27.93s/it]Bundle Query:  69%|██████▉   | 69/100 [44:43<20:39, 39.98s/it]Bundle Query:  70%|███████   | 70/100 [44:47<14:39, 29.32s/it]Bundle Query:  71%|███████   | 71/100 [44:53<10:41, 22.13s/it]Bundle Query:  72%|███████▏  | 72/100 [44:59<08:04, 17.29s/it]Bundle Query:  73%|███████▎  | 73/100 [45:04<06:09, 13.69s/it]Bundle Query:  74%|███████▍  | 74/100 [46:10<12:44, 29.42s/it]Bundle Query:  75%|███████▌  | 75/100 [47:17<16:58, 40.72s/it]Bundle Query:  76%|███████▌  | 76/100 [47:24<12:13, 30.57s/it]Bundle Query:  77%|███████▋  | 77/100 [48:31<15:55, 41.55s/it]Bundle Query:  78%|███████▊  | 78/100 [48:35<11:06, 30.29s/it]Bundle Query:  79%|███████▉  | 79/100 [49:46<14:51, 42.43s/it]Bundle Query:  80%|████████  | 80/100 [49:53<10:33, 31.69s/it]Bundle Query:  81%|████████  | 81/100 [50:00<07:42, 24.34s/it]Bundle Query:  82%|████████▏ | 82/100 [51:16<11:54, 39.71s/it]Bundle Query:  83%|████████▎ | 83/100 [51:24<08:35, 30.31s/it]Bundle Query:  84%|████████▍ | 84/100 [52:33<11:09, 41.82s/it]Bundle Query:  85%|████████▌ | 85/100 [52:41<07:59, 31.94s/it]Bundle Query:  86%|████████▌ | 86/100 [53:48<09:52, 42.30s/it]Bundle Query:  87%|████████▋ | 87/100 [54:57<10:56, 50.48s/it]Bundle Query:  88%|████████▊ | 88/100 [55:07<07:36, 38.08s/it]Bundle Query:  89%|████████▉ | 89/100 [55:19<05:33, 30.33s/it]Bundle Query:  90%|█████████ | 90/100 [56:25<06:50, 41.09s/it]Bundle Query:  91%|█████████ | 91/100 [56:32<04:36, 30.74s/it]Bundle Query:  92%|█████████▏| 92/100 [56:38<03:08, 23.56s/it]Bundle Query:  93%|█████████▎| 93/100 [57:48<04:21, 37.40s/it]Bundle Query:  94%|█████████▍| 94/100 [58:56<04:38, 46.48s/it]Bundle Query:  95%|█████████▌| 95/100 [59:00<02:49, 33.89s/it]Bundle Query:  96%|█████████▌| 96/100 [1:00:07<02:54, 43.68s/it]Bundle Query:  97%|█████████▋| 97/100 [1:00:13<01:37, 32.40s/it]Bundle Query:  98%|█████████▊| 98/100 [1:00:19<00:49, 24.55s/it]Bundle Query:  99%|█████████▉| 99/100 [1:01:25<00:36, 36.88s/it]Bundle Query: 100%|██████████| 100/100 [1:01:33<00:00, 28.12s/it]Bundle Query: 100%|██████████| 100/100 [1:01:33<00:00, 36.93s/it]Bundle valid rate: 100.0000%, Bundle class acc: 76.0000%
+[Refinement] Starting with 100 bundles
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=2619  true=2  confidence=0.4551 <-- removed
+node=328  true=2  confidence=0.6331
+node=1968  true=2  confidence=0.4754
+node=747  true=2  confidence=0.9992
+node=527  true=2  confidence=0.7294
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 6
+node=571  true=6  confidence=0.1968
+node=2694  true=6  confidence=0.1889
+node=19  true=2  confidence=0.1522 <-- removed
+node=2495  true=6  confidence=0.1901
+node=1762  true=6  confidence=0.1824
+purity: 0.8000 -> 1.0000  (delta=+0.2000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=1728  true=1  confidence=0.7066
+node=129  true=1  confidence=0.3862 <-- removed
+node=1775  true=1  confidence=0.5158
+node=1536  true=1  confidence=0.5452
+node=163  true=1  confidence=1.0000
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=952  true=3  confidence=0.2860
+node=1660  true=3  confidence=0.2470 <-- removed
+node=1937  true=3  confidence=0.5093
+node=332  true=3  confidence=0.5545
+node=1064  true=3  confidence=0.4322
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=814  true=2  confidence=0.7058
+node=1321  true=2  confidence=0.4407 <-- removed
+node=1365  true=2  confidence=0.5968
+node=1129  true=2  confidence=0.6108
+node=1080  true=2  confidence=0.6015
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=902  true=1  confidence=0.3458
+node=966  true=1  confidence=0.6967
+node=981  true=0  confidence=0.3061 <-- removed
+node=965  true=1  confidence=0.6795
+node=910  true=1  confidence=0.7967
+purity: 0.8000 -> 1.0000  (delta=+0.2000)
+
+[Refinement Diagnostic]
+LLM bundle label: 4
+node=653  true=4  confidence=0.1513 <-- removed
+node=749  true=4  confidence=0.1639
+node=523  true=1  confidence=0.2900
+node=451  true=4  confidence=0.1530
+node=370  true=4  confidence=0.1565
+purity: 0.8000 -> 0.7500  (delta=-0.0500)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=636  true=4  confidence=0.2296
+node=764  true=1  confidence=0.2504
+node=2027  true=4  confidence=0.1578 <-- removed
+node=294  true=4  confidence=0.2077
+node=2233  true=2  confidence=0.1853
+purity: 0.2000 -> 0.2500  (delta=+0.0500)
+
+[Refinement Diagnostic]
+LLM bundle label: 0
+node=1556  true=0  confidence=0.1577 <-- removed
+node=629  true=0  confidence=0.1650
+node=1278  true=0  confidence=0.1684
+node=1537  true=0  confidence=0.1671
+node=1163  true=0  confidence=0.1598
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=177  true=6  confidence=0.1605
+node=2192  true=1  confidence=0.1692
+node=965  true=1  confidence=0.6795
+node=430  true=6  confidence=0.1103 <-- removed
+node=911  true=6  confidence=0.1313
+purity: 0.4000 -> 0.5000  (delta=+0.1000)
+
+[Refinement Diagnostic]
+LLM bundle label: 6
+node=322  true=6  confidence=0.1550
+node=1644  true=2  confidence=0.1385 <-- removed
+node=967  true=6  confidence=0.2025
+node=2508  true=6  confidence=0.1535
+node=1027  true=6  confidence=0.1541
+purity: 0.8000 -> 1.0000  (delta=+0.2000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=787  true=3  confidence=0.3970 <-- removed
+node=74  true=3  confidence=0.4412
+node=1437  true=3  confidence=0.5021
+node=1288  true=3  confidence=0.6327
+node=1287  true=3  confidence=0.6218
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=326  true=3  confidence=0.3873 <-- removed
+node=324  true=3  confidence=0.6071
+node=185  true=3  confidence=0.4601
+node=389  true=3  confidence=0.5738
+node=327  true=3  confidence=0.4889
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=1857  true=3  confidence=0.4695
+node=2020  true=2  confidence=0.2471 <-- removed
+node=160  true=2  confidence=0.4800
+node=2540  true=2  confidence=0.4665
+node=2681  true=2  confidence=0.4285
+purity: 0.2000 -> 0.2500  (delta=+0.0500)
+
+[Refinement Diagnostic]
+LLM bundle label: 0
+node=858  true=0  confidence=0.1671
+node=2303  true=0  confidence=0.1627
+node=991  true=0  confidence=0.1694
+node=281  true=4  confidence=0.1522 <-- removed
+node=566  true=4  confidence=0.1613
+purity: 0.6000 -> 0.7500  (delta=+0.1500)
+
+[Refinement Diagnostic]
+LLM bundle label: 6
+node=2187  true=2  confidence=0.1904
+node=2321  true=2  confidence=0.1931
+node=693  true=2  confidence=0.2028
+node=2370  true=2  confidence=0.1743
+node=2186  true=2  confidence=0.1740 <-- removed
+purity: 0.0000 -> 0.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 0
+node=1554  true=0  confidence=0.1791
+node=1401  true=0  confidence=0.1599 <-- removed
+node=951  true=0  confidence=0.1693
+node=1553  true=0  confidence=0.1690
+node=1552  true=0  confidence=0.1699
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=229  true=2  confidence=0.5813
+node=315  true=2  confidence=0.5824
+node=73  true=4  confidence=0.5849
+node=397  true=2  confidence=0.5764 <-- removed
+node=545  true=2  confidence=0.5831
+purity: 0.8000 -> 0.7500  (delta=-0.0500)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=1096  true=1  confidence=0.2380 <-- removed
+node=163  true=1  confidence=1.0000
+node=422  true=1  confidence=0.6250
+node=793  true=1  confidence=0.9570
+node=1685  true=1  confidence=0.6296
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=2044  true=2  confidence=0.6066
+node=2683  true=2  confidence=0.6216
+node=1149  true=2  confidence=0.4505
+node=427  true=2  confidence=0.9921
+node=80  true=2  confidence=0.3679 <-- removed
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 0
+node=1084  true=0  confidence=0.1624
+node=566  true=4  confidence=0.1613 <-- removed
+node=858  true=0  confidence=0.1671
+node=1368  true=0  confidence=0.1656
+node=991  true=0  confidence=0.1694
+purity: 0.8000 -> 1.0000  (delta=+0.2000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=1076  true=3  confidence=0.3713
+node=1641  true=3  confidence=0.2839 <-- removed
+node=2492  true=3  confidence=0.4172
+node=1240  true=3  confidence=0.8824
+node=1086  true=3  confidence=0.6414
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 4
+node=566  true=4  confidence=0.2474
+node=2658  true=0  confidence=0.2332
+node=294  true=4  confidence=0.2634
+node=186  true=4  confidence=0.2827
+node=333  true=4  confidence=0.1772 <-- removed
+purity: 0.8000 -> 0.7500  (delta=-0.0500)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=626  true=2  confidence=0.3668
+node=2381  true=2  confidence=0.5068
+node=345  true=3  confidence=0.3501
+node=1157  true=2  confidence=0.6990
+node=261  true=2  confidence=0.2427 <-- removed
+purity: 0.8000 -> 0.7500  (delta=-0.0500)
+
+[Refinement Diagnostic]
+LLM bundle label: 5
+node=1576  true=6  confidence=0.1522
+node=1595  true=6  confidence=0.1693
+node=1266  true=2  confidence=0.1421 <-- removed
+node=426  true=5  confidence=0.1721
+node=375  true=6  confidence=0.1503
+purity: 0.2000 -> 0.2500  (delta=+0.0500)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=2266  true=3  confidence=0.2617
+node=19  true=2  confidence=0.1506 <-- removed
+node=2284  true=2  confidence=0.1813
+node=2390  true=2  confidence=0.3660
+node=193  true=2  confidence=0.6677
+purity: 0.2000 -> 0.2500  (delta=+0.0500)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=2199  true=1  confidence=0.4250
+node=1184  true=1  confidence=0.6586
+node=2133  true=1  confidence=0.3931 <-- removed
+node=1784  true=1  confidence=0.7800
+node=781  true=1  confidence=0.5931
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 6
+node=456  true=6  confidence=0.1710
+node=1296  true=6  confidence=0.1591 <-- removed
+node=1748  true=6  confidence=0.1599
+node=569  true=6  confidence=0.1686
+node=672  true=6  confidence=0.1924
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 5
+node=13  true=0  confidence=0.1542
+node=1187  true=6  confidence=0.1510
+node=1877  true=0  confidence=0.1549
+node=1275  true=5  confidence=0.1595
+node=551  true=4  confidence=0.1490 <-- removed
+purity: 0.2000 -> 0.2500  (delta=+0.0500)
+
+[Refinement Diagnostic]
+LLM bundle label: 5
+node=2079  true=5  confidence=0.1535
+node=1312  true=5  confidence=0.1567
+node=2539  true=5  confidence=0.1536
+node=1622  true=5  confidence=0.1550
+node=2424  true=5  confidence=0.1530 <-- removed
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=814  true=2  confidence=0.7058
+node=812  true=2  confidence=0.6835
+node=1044  true=2  confidence=0.6369
+node=1365  true=2  confidence=0.5968 <-- removed
+node=809  true=2  confidence=0.8106
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=2453  true=4  confidence=0.4700
+node=1399  true=2  confidence=0.4222 <-- removed
+node=2437  true=4  confidence=0.6421
+node=201  true=2  confidence=0.6288
+node=427  true=2  confidence=0.9921
+purity: 0.6000 -> 0.5000  (delta=-0.1000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=1486  true=5  confidence=0.1519
+node=2126  true=5  confidence=0.1478 <-- removed
+node=1721  true=5  confidence=0.1591
+node=1684  true=5  confidence=0.1560
+node=937  true=0  confidence=0.1508
+purity: 0.0000 -> 0.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=980  true=2  confidence=0.2077 <-- removed
+node=206  true=2  confidence=0.4029
+node=427  true=2  confidence=0.9921
+node=1668  true=2  confidence=0.3942
+node=1488  true=2  confidence=0.6234
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=1990  true=2  confidence=0.3894
+node=121  true=2  confidence=0.3853
+node=233  true=2  confidence=0.2589 <-- removed
+node=2093  true=2  confidence=0.2741
+node=201  true=2  confidence=0.6288
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=2702  true=1  confidence=0.3513
+node=2317  true=1  confidence=0.4370
+node=2423  true=6  confidence=0.1618
+node=1119  true=2  confidence=0.3779
+node=1256  true=5  confidence=0.1520 <-- removed
+purity: 0.2000 -> 0.2500  (delta=+0.0500)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=2161  true=3  confidence=0.3924 <-- removed
+node=2434  true=3  confidence=0.6341
+node=2088  true=3  confidence=0.5819
+node=1326  true=3  confidence=0.7430
+node=772  true=3  confidence=0.8205
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=2208  true=3  confidence=0.6736
+node=1761  true=3  confidence=0.4100 <-- removed
+node=2234  true=3  confidence=0.4154
+node=2313  true=3  confidence=0.4168
+node=2235  true=3  confidence=0.4262
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=1794  true=2  confidence=0.6018
+node=2545  true=2  confidence=0.6451
+node=2181  true=2  confidence=0.6018
+node=1775  true=1  confidence=0.0621 <-- removed
+node=2582  true=2  confidence=0.3847
+purity: 0.0000 -> 0.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=920  true=2  confidence=0.1765 <-- removed
+node=570  true=2  confidence=0.6360
+node=1211  true=2  confidence=0.2734
+node=59  true=2  confidence=0.5303
+node=1200  true=2  confidence=0.4098
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=2268  true=2  confidence=0.4119
+node=1753  true=2  confidence=0.2489 <-- removed
+node=2445  true=2  confidence=0.3590
+node=2522  true=2  confidence=0.2673
+node=1120  true=2  confidence=0.3368
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=290  true=1  confidence=0.5967
+node=163  true=1  confidence=1.0000
+node=2220  true=1  confidence=0.7122
+node=1911  true=1  confidence=0.6185
+node=1839  true=1  confidence=0.3904 <-- removed
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=1353  true=1  confidence=0.2815
+node=294  true=4  confidence=0.0639 <-- removed
+node=2302  true=1  confidence=0.3868
+node=2317  true=1  confidence=0.1744
+node=934  true=1  confidence=0.6245
+purity: 0.8000 -> 1.0000  (delta=+0.2000)
+
+[Refinement Diagnostic]
+LLM bundle label: 5
+node=877  true=5  confidence=0.1533 <-- removed
+node=1569  true=5  confidence=0.1670
+node=1578  true=5  confidence=0.1583
+node=1651  true=5  confidence=0.1553
+node=1010  true=5  confidence=0.1582
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=1937  true=3  confidence=0.5093
+node=1064  true=3  confidence=0.4322
+node=389  true=3  confidence=0.5738
+node=107  true=3  confidence=0.6212
+node=623  true=3  confidence=0.3874 <-- removed
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=2699  true=3  confidence=0.5536 <-- removed
+node=1992  true=3  confidence=0.6809
+node=1982  true=3  confidence=0.7742
+node=2318  true=3  confidence=0.6903
+node=2153  true=3  confidence=0.9107
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=1912  true=2  confidence=0.4106
+node=18  true=2  confidence=0.8821
+node=108  true=3  confidence=0.3800 <-- removed
+node=2024  true=2  confidence=0.6540
+node=304  true=2  confidence=0.5760
+purity: 0.8000 -> 1.0000  (delta=+0.2000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=1389  true=2  confidence=0.2761
+node=821  true=2  confidence=0.2091 <-- removed
+node=2707  true=2  confidence=0.2734
+node=1079  true=2  confidence=0.3982
+node=1050  true=6  confidence=0.2709
+purity: 0.0000 -> 0.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=2196  true=1  confidence=0.5829
+node=2267  true=1  confidence=0.2289
+node=163  true=1  confidence=1.0000
+node=380  true=1  confidence=0.7937
+node=938  true=1  confidence=0.1545 <-- removed
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=1140  true=1  confidence=0.4600
+node=2294  true=0  confidence=0.1402 <-- removed
+node=910  true=1  confidence=0.7967
+node=811  true=1  confidence=0.3138
+node=965  true=1  confidence=0.6795
+purity: 0.8000 -> 1.0000  (delta=+0.2000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=2254  true=1  confidence=0.2951 <-- removed
+node=163  true=1  confidence=1.0000
+node=2347  true=1  confidence=0.3595
+node=2039  true=1  confidence=0.6162
+node=2265  true=1  confidence=0.5057
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 5
+node=382  true=6  confidence=0.1578
+node=1236  true=6  confidence=0.1601
+node=29  true=5  confidence=0.1561
+node=2132  true=5  confidence=0.1550 <-- removed
+node=1837  true=5  confidence=0.1550
+purity: 0.6000 -> 0.5000  (delta=-0.1000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=1971  true=1  confidence=0.6027
+node=995  true=1  confidence=0.7859
+node=2211  true=1  confidence=0.3513 <-- removed
+node=163  true=1  confidence=1.0000
+node=1696  true=1  confidence=0.8478
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 0
+node=1552  true=0  confidence=0.1699
+node=82  true=4  confidence=0.1495 <-- removed
+node=951  true=0  confidence=0.1693
+node=819  true=0  confidence=0.1783
+node=1126  true=0  confidence=0.1895
+purity: 0.8000 -> 1.0000  (delta=+0.2000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=1732  true=2  confidence=0.1864
+node=2423  true=6  confidence=0.1618
+node=2225  true=6  confidence=0.1423 <-- removed
+node=1644  true=2  confidence=0.1464
+node=611  true=2  confidence=0.8773
+purity: 0.6000 -> 0.7500  (delta=+0.1500)
+
+[Refinement Diagnostic]
+LLM bundle label: 0
+node=1215  true=0  confidence=0.1938
+node=824  true=0  confidence=0.1691
+node=580  true=0  confidence=0.1865
+node=825  true=0  confidence=0.1644 <-- removed
+node=1209  true=0  confidence=0.1672
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 6
+node=249  true=5  confidence=0.2020
+node=2106  true=5  confidence=0.2013
+node=86  true=5  confidence=0.2115
+node=2436  true=5  confidence=0.1770 <-- removed
+node=1956  true=5  confidence=0.2008
+purity: 0.0000 -> 0.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=1952  true=2  confidence=0.5354
+node=2029  true=2  confidence=0.5050
+node=503  true=2  confidence=0.6347
+node=2393  true=2  confidence=0.6193
+node=2396  true=1  confidence=0.4031 <-- removed
+purity: 0.8000 -> 1.0000  (delta=+0.2000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=280  true=3  confidence=0.6924
+node=2549  true=2  confidence=0.6242 <-- removed
+node=10  true=2  confidence=0.7069
+node=193  true=2  confidence=0.6677
+node=519  true=2  confidence=0.8134
+purity: 0.2000 -> 0.2500  (delta=+0.0500)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=491  true=3  confidence=0.6785
+node=468  true=3  confidence=0.7471
+node=2318  true=3  confidence=0.6903
+node=182  true=3  confidence=0.5632 <-- removed
+node=2377  true=3  confidence=0.6309
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=1717  true=1  confidence=0.6309
+node=1380  true=1  confidence=0.6726
+node=941  true=1  confidence=0.3298 <-- removed
+node=163  true=1  confidence=1.0000
+node=1441  true=1  confidence=0.3548
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 5
+node=977  true=6  confidence=0.1521
+node=1226  true=5  confidence=0.1507 <-- removed
+node=1263  true=0  confidence=0.1538
+node=790  true=6  confidence=0.1543
+node=1234  true=5  confidence=0.1668
+purity: 0.4000 -> 0.2500  (delta=-0.1500)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=2643  true=1  confidence=0.2550
+node=2101  true=1  confidence=0.2077 <-- removed
+node=2470  true=1  confidence=0.4485
+node=1277  true=1  confidence=0.6529
+node=1230  true=1  confidence=0.5154
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=38  true=1  confidence=0.4716
+node=563  true=4  confidence=0.5846
+node=219  true=1  confidence=0.7881
+node=1689  true=1  confidence=0.5525
+node=372  true=1  confidence=0.2960 <-- removed
+purity: 0.8000 -> 0.7500  (delta=-0.0500)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=2072  true=2  confidence=0.3727
+node=1591  true=2  confidence=0.5003
+node=745  true=2  confidence=0.9849
+node=1928  true=2  confidence=0.3431 <-- removed
+node=2227  true=2  confidence=0.3693
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 4
+node=281  true=4  confidence=0.1404
+node=858  true=0  confidence=0.1450
+node=1084  true=0  confidence=0.1346 <-- removed
+node=566  true=4  confidence=0.2474
+node=460  true=4  confidence=0.1428
+purity: 0.6000 -> 0.7500  (delta=+0.1500)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=1794  true=2  confidence=0.6018
+node=2545  true=2  confidence=0.6451
+node=1795  true=2  confidence=0.6239
+node=1773  true=2  confidence=0.3627 <-- removed
+node=2082  true=1  confidence=0.5849
+purity: 0.0000 -> 0.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=2271  true=1  confidence=0.5068
+node=2250  true=1  confidence=0.5302
+node=2238  true=1  confidence=0.2524 <-- removed
+node=2252  true=1  confidence=0.3673
+node=2249  true=1  confidence=0.3808
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 4
+node=472  true=4  confidence=0.1631
+node=552  true=4  confidence=0.2314
+node=650  true=4  confidence=0.1493
+node=1006  true=6  confidence=0.1434 <-- removed
+node=566  true=4  confidence=0.2474
+purity: 0.8000 -> 1.0000  (delta=+0.2000)
+
+[Refinement Diagnostic]
+LLM bundle label: 0
+node=1154  true=0  confidence=0.1638 <-- removed
+node=819  true=0  confidence=0.1783
+node=983  true=0  confidence=0.1937
+node=817  true=0  confidence=0.1800
+node=1215  true=0  confidence=0.1938
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 0
+node=2597  true=0  confidence=0.1554 <-- removed
+node=686  true=0  confidence=0.1735
+node=1698  true=0  confidence=0.1662
+node=1626  true=0  confidence=0.1697
+node=430  true=6  confidence=0.1964
+purity: 0.8000 -> 0.7500  (delta=-0.0500)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=208  true=6  confidence=0.1567
+node=88  true=6  confidence=0.1482 <-- removed
+node=1270  true=6  confidence=0.1524
+node=635  true=6  confidence=0.1679
+node=2343  true=3  confidence=0.1589
+purity: 0.2000 -> 0.2500  (delta=+0.0500)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=14  true=2  confidence=0.8753
+node=435  true=2  confidence=0.7176
+node=242  true=6  confidence=0.3698 <-- removed
+node=393  true=2  confidence=0.5395
+node=258  true=2  confidence=0.7925
+purity: 0.0000 -> 0.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 5
+node=1809  true=0  confidence=0.1550
+node=2585  true=0  confidence=0.1578
+node=2441  true=5  confidence=0.1492 <-- removed
+node=2071  true=0  confidence=0.1532
+node=1263  true=0  confidence=0.1538
+purity: 0.2000 -> 0.0000  (delta=-0.2000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=458  true=2  confidence=0.6963
+node=110  true=2  confidence=0.7588
+node=1885  true=2  confidence=0.6241
+node=202  true=2  confidence=0.7801
+node=700  true=6  confidence=0.5862 <-- removed
+purity: 0.8000 -> 1.0000  (delta=+0.2000)
+
+[Refinement Diagnostic]
+LLM bundle label: 0
+node=147  true=0  confidence=0.1542
+node=479  true=0  confidence=0.1708
+node=2300  true=5  confidence=0.1597
+node=1627  true=5  confidence=0.1546
+node=418  true=6  confidence=0.1502 <-- removed
+purity: 0.4000 -> 0.5000  (delta=+0.1000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=1760  true=2  confidence=0.5619
+node=477  true=4  confidence=0.2916 <-- removed
+node=230  true=2  confidence=0.5872
+node=1318  true=2  confidence=0.4642
+node=1766  true=2  confidence=0.5215
+purity: 0.8000 -> 1.0000  (delta=+0.2000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=163  true=1  confidence=1.0000
+node=1410  true=1  confidence=0.5412 <-- removed
+node=1030  true=1  confidence=0.5718
+node=1114  true=1  confidence=0.7053
+node=563  true=4  confidence=0.5846
+purity: 0.8000 -> 0.7500  (delta=-0.0500)
+
+[Refinement Diagnostic]
+LLM bundle label: 0
+node=1448  true=0  confidence=0.1580 <-- removed
+node=1194  true=0  confidence=0.1648
+node=824  true=0  confidence=0.1691
+node=594  true=0  confidence=0.1695
+node=300  true=0  confidence=0.1626
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=665  true=2  confidence=0.6709
+node=330  true=2  confidence=0.6994
+node=737  true=2  confidence=0.6422
+node=83  true=2  confidence=0.4564 <-- removed
+node=609  true=2  confidence=0.5937
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 6
+node=1686  true=5  confidence=0.1545
+node=2431  true=5  confidence=0.1514 <-- removed
+node=1007  true=5  confidence=0.1522
+node=1489  true=5  confidence=0.1534
+node=837  true=5  confidence=0.1575
+purity: 0.0000 -> 0.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=442  true=3  confidence=0.1707
+node=474  true=2  confidence=0.1721
+node=1908  true=3  confidence=0.2837
+node=109  true=6  confidence=0.1424 <-- removed
+node=634  true=0  confidence=0.1566
+purity: 0.4000 -> 0.5000  (delta=+0.1000)
+
+[Refinement Diagnostic]
+LLM bundle label: 0
+node=911  true=6  confidence=0.1556 <-- removed
+node=992  true=0  confidence=0.1594
+node=1465  true=0  confidence=0.1601
+node=1188  true=2  confidence=0.1596
+node=1089  true=0  confidence=0.1573
+purity: 0.6000 -> 0.7500  (delta=+0.1500)
+
+[Refinement Diagnostic]
+LLM bundle label: 5
+node=932  true=6  confidence=0.1537
+node=482  true=0  confidence=0.1557
+node=6  true=6  confidence=0.1506 <-- removed
+node=865  true=6  confidence=0.1562
+node=88  true=6  confidence=0.1538
+purity: 0.0000 -> 0.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 4
+node=1632  true=4  confidence=0.1474
+node=773  true=4  confidence=0.1686
+node=523  true=1  confidence=0.2900
+node=68  true=2  confidence=0.1465 <-- removed
+node=1859  true=4  confidence=0.1721
+purity: 0.6000 -> 0.7500  (delta=+0.1500)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=1143  true=1  confidence=0.4938
+node=2317  true=1  confidence=0.4370
+node=2281  true=2  confidence=0.3725
+node=2165  true=1  confidence=0.8173
+node=1404  true=1  confidence=0.3171 <-- removed
+purity: 0.2000 -> 0.2500  (delta=+0.0500)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=2196  true=1  confidence=0.5829
+node=938  true=1  confidence=0.1545 <-- removed
+node=163  true=1  confidence=1.0000
+node=2267  true=1  confidence=0.2289
+node=380  true=1  confidence=0.7937
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=731  true=2  confidence=0.5933
+node=1450  true=2  confidence=0.3411 <-- removed
+node=576  true=2  confidence=0.8059
+node=121  true=2  confidence=0.3853
+node=1778  true=2  confidence=0.3640
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=2443  true=3  confidence=0.1605
+node=2127  true=3  confidence=0.1728
+node=1678  true=6  confidence=0.1496 <-- removed
+node=2343  true=3  confidence=0.1589
+node=1986  true=6  confidence=0.1560
+purity: 0.6000 -> 0.7500  (delta=+0.1500)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=1284  true=2  confidence=0.4248
+node=1055  true=2  confidence=0.1797 <-- removed
+node=1169  true=2  confidence=0.2223
+node=230  true=2  confidence=0.5872
+node=427  true=2  confidence=0.9921
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=2361  true=1  confidence=0.6061
+node=163  true=1  confidence=1.0000
+node=2216  true=1  confidence=0.3789
+node=139  true=1  confidence=0.3104 <-- removed
+node=2175  true=1  confidence=0.9163
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=6  true=6  confidence=0.1492 <-- removed
+node=492  true=4  confidence=0.1536
+node=1505  true=6  confidence=0.1566
+node=2560  true=6  confidence=0.1560
+node=865  true=6  confidence=0.1554
+purity: 0.0000 -> 0.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 4
+node=807  true=4  confidence=0.1560 <-- removed
+node=636  true=4  confidence=0.1812
+node=699  true=4  confidence=0.2834
+node=128  true=4  confidence=0.1744
+node=588  true=4  confidence=0.2869
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=2552  true=2  confidence=0.3814
+node=726  true=2  confidence=0.4096
+node=1381  true=3  confidence=0.3453 <-- removed
+node=1922  true=3  confidence=0.3899
+node=293  true=2  confidence=0.3654
+purity: 0.4000 -> 0.2500  (delta=-0.1500)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=1230  true=1  confidence=0.5154
+node=2598  true=1  confidence=0.5913
+node=1231  true=1  confidence=0.6716
+node=2470  true=1  confidence=0.4485 <-- removed
+node=1178  true=1  confidence=0.8916
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 5
+node=1336  true=3  confidence=0.1554
+node=1335  true=3  confidence=0.1660
+node=1027  true=6  confidence=0.1567
+node=378  true=6  confidence=0.1912
+node=322  true=6  confidence=0.1446 <-- removed
+purity: 0.0000 -> 0.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=1722  true=3  confidence=0.6437
+node=2592  true=3  confidence=0.5463
+node=1723  true=3  confidence=0.5053 <-- removed
+node=1255  true=3  confidence=0.6829
+node=1614  true=3  confidence=0.5521
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=1663  true=1  confidence=0.2469
+node=2504  true=1  confidence=0.2351
+node=168  true=1  confidence=0.4525
+node=1301  true=5  confidence=0.1279 <-- removed
+node=2603  true=2  confidence=0.1693
+purity: 0.6000 -> 0.7500  (delta=+0.1500)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=860  true=1  confidence=0.4955
+node=1940  true=1  confidence=0.4899 <-- removed
+node=1911  true=1  confidence=0.6185
+node=1184  true=1  confidence=0.6586
+node=934  true=1  confidence=0.6245
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 5
+node=1809  true=0  confidence=0.1550
+node=2441  true=5  confidence=0.1492 <-- removed
+node=1830  true=0  confidence=0.1539
+node=2071  true=0  confidence=0.1532
+node=2585  true=0  confidence=0.1578
+purity: 0.2000 -> 0.0000  (delta=-0.2000)
+[Refinement] Bundle sizes: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5] -> [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+[Refinement] Starting with 100 bundles
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=328  true=2  confidence=0.6844
+node=1968  true=2  confidence=0.6621 <-- removed
+node=747  true=2  confidence=1.0000
+node=527  true=2  confidence=0.8330
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 6
+node=571  true=6  confidence=0.1927
+node=2694  true=6  confidence=0.1873
+node=2495  true=6  confidence=0.1813
+node=1762  true=6  confidence=0.1811 <-- removed
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=1728  true=1  confidence=0.9966
+node=1775  true=1  confidence=0.9893
+node=1536  true=1  confidence=0.9821 <-- removed
+node=163  true=1  confidence=1.0000
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=952  true=3  confidence=0.3179 <-- removed
+node=1937  true=3  confidence=0.4581
+node=332  true=3  confidence=0.6183
+node=1064  true=3  confidence=0.3937
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=814  true=2  confidence=0.9187
+node=1365  true=2  confidence=0.8228
+node=1129  true=2  confidence=0.7954 <-- removed
+node=1080  true=2  confidence=0.8062
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=902  true=1  confidence=0.4746 <-- removed
+node=966  true=1  confidence=0.9930
+node=965  true=1  confidence=0.8928
+node=910  true=1  confidence=0.9607
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 4
+node=749  true=4  confidence=0.1851
+node=523  true=1  confidence=0.5932
+node=451  true=4  confidence=0.1625 <-- removed
+node=370  true=4  confidence=0.1714
+purity: 0.7500 -> 0.6667  (delta=-0.0833)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=636  true=4  confidence=0.3458
+node=764  true=1  confidence=0.3051
+node=294  true=4  confidence=0.2941
+node=2233  true=2  confidence=0.2280 <-- removed
+purity: 0.2500 -> 0.0000  (delta=-0.2500)
+
+[Refinement Diagnostic]
+LLM bundle label: 0
+node=629  true=0  confidence=0.1820
+node=1278  true=0  confidence=0.2044
+node=1537  true=0  confidence=0.1814
+node=1163  true=0  confidence=0.1667 <-- removed
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=177  true=6  confidence=0.1424
+node=2192  true=1  confidence=0.1922
+node=965  true=1  confidence=0.8928
+node=911  true=6  confidence=0.1162 <-- removed
+purity: 0.5000 -> 0.6667  (delta=+0.1667)
+
+[Refinement Diagnostic]
+LLM bundle label: 6
+node=322  true=6  confidence=0.1363 <-- removed
+node=967  true=6  confidence=0.2071
+node=2508  true=6  confidence=0.1553
+node=1027  true=6  confidence=0.1615
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=74  true=3  confidence=0.1093 <-- removed
+node=1437  true=3  confidence=0.3004
+node=1288  true=3  confidence=0.4460
+node=1287  true=3  confidence=0.4717
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=324  true=3  confidence=0.6202
+node=185  true=3  confidence=0.5708
+node=389  true=3  confidence=0.6169
+node=327  true=3  confidence=0.4047 <-- removed
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=1857  true=3  confidence=0.4397
+node=160  true=2  confidence=0.3776
+node=2540  true=2  confidence=0.2328 <-- removed
+node=2681  true=2  confidence=0.4211
+purity: 0.2500 -> 0.3333  (delta=+0.0833)
+
+[Refinement Diagnostic]
+LLM bundle label: 0
+node=858  true=0  confidence=0.1937
+node=2303  true=0  confidence=0.1902
+node=991  true=0  confidence=0.1991
+node=566  true=4  confidence=0.1588 <-- removed
+purity: 0.7500 -> 1.0000  (delta=+0.2500)
+
+[Refinement Diagnostic]
+LLM bundle label: 6
+node=2187  true=2  confidence=0.1884
+node=2321  true=2  confidence=0.2028
+node=693  true=2  confidence=0.1972
+node=2370  true=2  confidence=0.1849 <-- removed
+purity: 0.0000 -> 0.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 0
+node=1554  true=0  confidence=0.2617
+node=951  true=0  confidence=0.2200
+node=1553  true=0  confidence=0.1975 <-- removed
+node=1552  true=0  confidence=0.2362
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=229  true=2  confidence=0.4532 <-- removed
+node=315  true=2  confidence=0.5386
+node=73  true=4  confidence=0.5152
+node=545  true=2  confidence=0.5065
+purity: 0.7500 -> 0.6667  (delta=-0.0833)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=163  true=1  confidence=1.0000
+node=422  true=1  confidence=0.9909 <-- removed
+node=793  true=1  confidence=1.0000
+node=1685  true=1  confidence=0.9917
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=2044  true=2  confidence=0.6262
+node=2683  true=2  confidence=0.5988
+node=1149  true=2  confidence=0.5648 <-- removed
+node=427  true=2  confidence=1.0000
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 0
+node=1084  true=0  confidence=0.1867 <-- removed
+node=858  true=0  confidence=0.1937
+node=1368  true=0  confidence=0.2117
+node=991  true=0  confidence=0.1991
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=1076  true=3  confidence=0.2859 <-- removed
+node=2492  true=3  confidence=0.3359
+node=1240  true=3  confidence=0.9985
+node=1086  true=3  confidence=0.6528
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 4
+node=566  true=4  confidence=0.3490
+node=2658  true=0  confidence=0.3285 <-- removed
+node=294  true=4  confidence=0.3524
+node=186  true=4  confidence=0.3899
+purity: 0.7500 -> 1.0000  (delta=+0.2500)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=626  true=2  confidence=0.4703
+node=2381  true=2  confidence=0.6195
+node=345  true=3  confidence=0.1901 <-- removed
+node=1157  true=2  confidence=0.8796
+purity: 0.7500 -> 1.0000  (delta=+0.2500)
+
+[Refinement Diagnostic]
+LLM bundle label: 5
+node=1576  true=6  confidence=0.1533
+node=1595  true=6  confidence=0.1722
+node=426  true=5  confidence=0.1767
+node=375  true=6  confidence=0.1515 <-- removed
+purity: 0.2500 -> 0.3333  (delta=+0.0833)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=2266  true=3  confidence=0.1676
+node=2284  true=2  confidence=0.1494 <-- removed
+node=2390  true=2  confidence=0.1910
+node=193  true=2  confidence=0.7722
+purity: 0.2500 -> 0.3333  (delta=+0.0833)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=2199  true=1  confidence=0.6972 <-- removed
+node=1184  true=1  confidence=0.9147
+node=1784  true=1  confidence=0.9981
+node=781  true=1  confidence=0.9897
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 6
+node=456  true=6  confidence=0.1823
+node=1748  true=6  confidence=0.1643 <-- removed
+node=569  true=6  confidence=0.1713
+node=672  true=6  confidence=0.2102
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 5
+node=13  true=0  confidence=0.1575
+node=1187  true=6  confidence=0.1541 <-- removed
+node=1877  true=0  confidence=0.1587
+node=1275  true=5  confidence=0.1613
+purity: 0.2500 -> 0.3333  (delta=+0.0833)
+
+[Refinement Diagnostic]
+LLM bundle label: 5
+node=2079  true=5  confidence=0.1597
+node=1312  true=5  confidence=0.1575 <-- removed
+node=2539  true=5  confidence=0.1590
+node=1622  true=5  confidence=0.1598
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=814  true=2  confidence=0.9187
+node=812  true=2  confidence=0.9125
+node=1044  true=2  confidence=0.8706 <-- removed
+node=809  true=2  confidence=0.9616
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=2453  true=4  confidence=0.3778 <-- removed
+node=2437  true=4  confidence=0.5769
+node=201  true=2  confidence=0.5847
+node=427  true=2  confidence=1.0000
+purity: 0.5000 -> 0.6667  (delta=+0.1667)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=1486  true=5  confidence=0.1512
+node=1721  true=5  confidence=0.1624
+node=1684  true=5  confidence=0.1521
+node=937  true=0  confidence=0.1510 <-- removed
+purity: 0.0000 -> 0.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=206  true=2  confidence=0.5801
+node=427  true=2  confidence=1.0000
+node=1668  true=2  confidence=0.3288 <-- removed
+node=1488  true=2  confidence=0.5550
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=1990  true=2  confidence=0.4870
+node=121  true=2  confidence=0.3963
+node=2093  true=2  confidence=0.3129 <-- removed
+node=201  true=2  confidence=0.5847
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=2702  true=1  confidence=0.3829
+node=2317  true=1  confidence=0.4658
+node=2423  true=6  confidence=0.2595 <-- removed
+node=1119  true=2  confidence=0.4498
+purity: 0.2500 -> 0.3333  (delta=+0.0833)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=2434  true=3  confidence=0.9321
+node=2088  true=3  confidence=0.5835 <-- removed
+node=1326  true=3  confidence=0.9601
+node=772  true=3  confidence=0.9921
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=2208  true=3  confidence=0.9667
+node=2234  true=3  confidence=0.8182 <-- removed
+node=2313  true=3  confidence=0.8190
+node=2235  true=3  confidence=0.8254
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=1794  true=2  confidence=0.8540
+node=2545  true=2  confidence=0.9043
+node=2181  true=2  confidence=0.7500
+node=2582  true=2  confidence=0.1934 <-- removed
+purity: 0.0000 -> 0.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=570  true=2  confidence=0.4919
+node=1211  true=2  confidence=0.2373
+node=59  true=2  confidence=0.3583
+node=1200  true=2  confidence=0.2238 <-- removed
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=2268  true=2  confidence=0.6596
+node=2445  true=2  confidence=0.5692
+node=2522  true=2  confidence=0.3962 <-- removed
+node=1120  true=2  confidence=0.4953
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=290  true=1  confidence=0.9899
+node=163  true=1  confidence=1.0000
+node=2220  true=1  confidence=0.9334
+node=1911  true=1  confidence=0.8972 <-- removed
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=1353  true=1  confidence=0.2828 <-- removed
+node=2302  true=1  confidence=0.6590
+node=2317  true=1  confidence=0.2978
+node=934  true=1  confidence=0.8939
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 5
+node=1569  true=5  confidence=0.1650
+node=1578  true=5  confidence=0.1647
+node=1651  true=5  confidence=0.1608 <-- removed
+node=1010  true=5  confidence=0.1633
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=1937  true=3  confidence=0.4581
+node=1064  true=3  confidence=0.3937 <-- removed
+node=389  true=3  confidence=0.6169
+node=107  true=3  confidence=0.5163
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=1992  true=3  confidence=0.9792
+node=1982  true=3  confidence=0.9985
+node=2318  true=3  confidence=0.9777 <-- removed
+node=2153  true=3  confidence=1.0000
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=1912  true=2  confidence=0.5820 <-- removed
+node=18  true=2  confidence=0.9696
+node=2024  true=2  confidence=0.7176
+node=304  true=2  confidence=0.7507
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=1389  true=2  confidence=0.1646
+node=2707  true=2  confidence=0.1671
+node=1079  true=2  confidence=0.1882
+node=1050  true=6  confidence=0.1606 <-- removed
+purity: 0.0000 -> 0.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=2196  true=1  confidence=0.9866
+node=2267  true=1  confidence=0.3336 <-- removed
+node=163  true=1  confidence=1.0000
+node=380  true=1  confidence=0.9985
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=1140  true=1  confidence=0.6711
+node=910  true=1  confidence=0.9607
+node=811  true=1  confidence=0.4414 <-- removed
+node=965  true=1  confidence=0.8928
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=163  true=1  confidence=1.0000
+node=2347  true=1  confidence=0.5893 <-- removed
+node=2039  true=1  confidence=0.9907
+node=2265  true=1  confidence=0.9774
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 5
+node=382  true=6  confidence=0.1623
+node=1236  true=6  confidence=0.1653
+node=29  true=5  confidence=0.1606 <-- removed
+node=1837  true=5  confidence=0.1622
+purity: 0.5000 -> 0.3333  (delta=-0.1667)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=1971  true=1  confidence=0.9917
+node=995  true=1  confidence=0.9666 <-- removed
+node=163  true=1  confidence=1.0000
+node=1696  true=1  confidence=0.9995
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 0
+node=1552  true=0  confidence=0.2362
+node=951  true=0  confidence=0.2200 <-- removed
+node=819  true=0  confidence=0.2798
+node=1126  true=0  confidence=0.3140
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=1732  true=2  confidence=0.2783
+node=2423  true=6  confidence=0.2595
+node=1644  true=2  confidence=0.2248 <-- removed
+node=611  true=2  confidence=0.9596
+purity: 0.7500 -> 0.6667  (delta=-0.0833)
+
+[Refinement Diagnostic]
+LLM bundle label: 0
+node=1215  true=0  confidence=0.3599
+node=824  true=0  confidence=0.2306
+node=580  true=0  confidence=0.3192
+node=1209  true=0  confidence=0.2258 <-- removed
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 6
+node=249  true=5  confidence=0.2498
+node=2106  true=5  confidence=0.2320 <-- removed
+node=86  true=5  confidence=0.2413
+node=1956  true=5  confidence=0.2489
+purity: 0.0000 -> 0.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=1952  true=2  confidence=0.6528 <-- removed
+node=2029  true=2  confidence=0.6596
+node=503  true=2  confidence=0.7803
+node=2393  true=2  confidence=0.8148
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=280  true=3  confidence=0.9527
+node=10  true=2  confidence=0.9611
+node=193  true=2  confidence=0.7722 <-- removed
+node=519  true=2  confidence=0.9930
+purity: 0.2500 -> 0.3333  (delta=+0.0833)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=491  true=3  confidence=0.9672
+node=468  true=3  confidence=0.9933
+node=2318  true=3  confidence=0.9777
+node=2377  true=3  confidence=0.9424 <-- removed
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=1717  true=1  confidence=0.9908
+node=1380  true=1  confidence=0.9958
+node=163  true=1  confidence=1.0000
+node=1441  true=1  confidence=0.5623 <-- removed
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 5
+node=977  true=6  confidence=0.1570 <-- removed
+node=1263  true=0  confidence=0.1574
+node=790  true=6  confidence=0.1579
+node=1234  true=5  confidence=0.1734
+purity: 0.2500 -> 0.3333  (delta=+0.0833)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=2643  true=1  confidence=0.3566 <-- removed
+node=2470  true=1  confidence=0.6838
+node=1277  true=1  confidence=0.9924
+node=1230  true=1  confidence=0.8249
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=38  true=1  confidence=0.7860 <-- removed
+node=563  true=4  confidence=0.9888
+node=219  true=1  confidence=0.9989
+node=1689  true=1  confidence=0.9895
+purity: 0.7500 -> 0.6667  (delta=-0.0833)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=2072  true=2  confidence=0.3115
+node=1591  true=2  confidence=0.5011
+node=745  true=2  confidence=1.0000
+node=2227  true=2  confidence=0.2616 <-- removed
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 4
+node=281  true=4  confidence=0.1424 <-- removed
+node=858  true=0  confidence=0.1442
+node=566  true=4  confidence=0.3490
+node=460  true=4  confidence=0.1502
+purity: 0.7500 -> 0.6667  (delta=-0.0833)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=1794  true=2  confidence=0.8540
+node=2545  true=2  confidence=0.9043
+node=1795  true=2  confidence=0.8195
+node=2082  true=1  confidence=0.6880 <-- removed
+purity: 0.0000 -> 0.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=2271  true=1  confidence=0.7563
+node=2250  true=1  confidence=0.8486
+node=2252  true=1  confidence=0.5935 <-- removed
+node=2249  true=1  confidence=0.6341
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 4
+node=472  true=4  confidence=0.1825
+node=552  true=4  confidence=0.3347
+node=650  true=4  confidence=0.1641 <-- removed
+node=566  true=4  confidence=0.3490
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 0
+node=819  true=0  confidence=0.2798 <-- removed
+node=983  true=0  confidence=0.3212
+node=817  true=0  confidence=0.2861
+node=1215  true=0  confidence=0.3599
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 0
+node=686  true=0  confidence=0.1953
+node=1698  true=0  confidence=0.1758 <-- removed
+node=1626  true=0  confidence=0.1935
+node=430  true=6  confidence=0.2211
+purity: 0.7500 -> 0.6667  (delta=-0.0833)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=208  true=6  confidence=0.1564
+node=1270  true=6  confidence=0.1518
+node=635  true=6  confidence=0.1497 <-- removed
+node=2343  true=3  confidence=0.1560
+purity: 0.2500 -> 0.3333  (delta=+0.0833)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=14  true=2  confidence=0.9994
+node=435  true=2  confidence=0.9855
+node=393  true=2  confidence=0.4070 <-- removed
+node=258  true=2  confidence=0.9955
+purity: 0.0000 -> 0.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 5
+node=1809  true=0  confidence=0.1613
+node=2585  true=0  confidence=0.1621
+node=2071  true=0  confidence=0.1636
+node=1263  true=0  confidence=0.1574 <-- removed
+purity: 0.0000 -> 0.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=458  true=2  confidence=0.7330 <-- removed
+node=110  true=2  confidence=0.8448
+node=1885  true=2  confidence=0.8685
+node=202  true=2  confidence=0.7779
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 0
+node=147  true=0  confidence=0.1564
+node=479  true=0  confidence=0.1741
+node=2300  true=5  confidence=0.1658
+node=1627  true=5  confidence=0.1480 <-- removed
+purity: 0.5000 -> 0.6667  (delta=+0.1667)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=1760  true=2  confidence=0.5332
+node=230  true=2  confidence=0.5452
+node=1318  true=2  confidence=0.3756 <-- removed
+node=1766  true=2  confidence=0.4253
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=163  true=1  confidence=1.0000
+node=1030  true=1  confidence=0.9891
+node=1114  true=1  confidence=0.9952
+node=563  true=4  confidence=0.9888 <-- removed
+purity: 0.7500 -> 1.0000  (delta=+0.2500)
+
+[Refinement Diagnostic]
+LLM bundle label: 0
+node=1194  true=0  confidence=0.1954
+node=824  true=0  confidence=0.2306
+node=594  true=0  confidence=0.2127
+node=300  true=0  confidence=0.1946 <-- removed
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=665  true=2  confidence=0.4562 <-- removed
+node=330  true=2  confidence=0.5978
+node=737  true=2  confidence=0.6721
+node=609  true=2  confidence=0.5292
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 6
+node=1686  true=5  confidence=0.1667
+node=1007  true=5  confidence=0.1672
+node=1489  true=5  confidence=0.1583 <-- removed
+node=837  true=5  confidence=0.1680
+purity: 0.0000 -> 0.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=442  true=3  confidence=0.1701
+node=474  true=2  confidence=0.1763
+node=1908  true=3  confidence=0.1570
+node=634  true=0  confidence=0.1512 <-- removed
+purity: 0.5000 -> 0.6667  (delta=+0.1667)
+
+[Refinement Diagnostic]
+
+LLM bundle label: 0
+node=992  true=0  confidence=0.1736
+node=1465  true=0  confidence=0.1760
+node=1188  true=2  confidence=0.1731
+node=1089  true=0  confidence=0.1685 <-- removed
+purity: 0.7500 -> 0.6667  (delta=-0.0833)
+
+[Refinement Diagnostic]
+LLM bundle label: 5
+node=932  true=6  confidence=0.1576
+node=482  true=0  confidence=0.1605
+node=865  true=6  confidence=0.1612
+node=88  true=6  confidence=0.1489 <-- removed
+purity: 0.0000 -> 0.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 4
+node=1632  true=4  confidence=0.1581 <-- removed
+node=773  true=4  confidence=0.1916
+node=523  true=1  confidence=0.5932
+node=1859  true=4  confidence=0.1997
+purity: 0.7500 -> 0.6667  (delta=-0.0833)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=1143  true=1  confidence=0.5632
+node=2317  true=1  confidence=0.4658 <-- removed
+node=2281  true=2  confidence=0.4944
+node=2165  true=1  confidence=0.8509
+purity: 0.2500 -> 0.3333  (delta=+0.0833)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=2196  true=1  confidence=0.9866
+node=163  true=1  confidence=1.0000
+node=2267  true=1  confidence=0.3336 <-- removed
+node=380  true=1  confidence=0.9985
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=731  true=2  confidence=0.5070
+node=576  true=2  confidence=0.8007
+node=121  true=2  confidence=0.3963 <-- removed
+node=1778  true=2  confidence=0.4139
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=2443  true=3  confidence=0.1588
+node=2127  true=3  confidence=0.1617
+node=2343  true=3  confidence=0.1560
+node=1986  true=6  confidence=0.1531 <-- removed
+purity: 0.7500 -> 1.0000  (delta=+0.2500)
+
+[Refinement Diagnostic]
+LLM bundle label: 2
+node=1284  true=2  confidence=0.3665
+node=1169  true=2  confidence=0.1665 <-- removed
+node=230  true=2  confidence=0.5452
+node=427  true=2  confidence=1.0000
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=2361  true=1  confidence=0.9900
+node=163  true=1  confidence=1.0000
+node=2216  true=1  confidence=0.5891 <-- removed
+node=2175  true=1  confidence=0.9998
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=492  true=4  confidence=0.1491 <-- removed
+node=1505  true=6  confidence=0.1544
+node=2560  true=6  confidence=0.1518
+node=865  true=6  confidence=0.1523
+purity: 0.0000 -> 0.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 4
+node=636  true=4  confidence=0.2078
+node=699  true=4  confidence=0.3918
+node=128  true=4  confidence=0.1948 <-- removed
+node=588  true=4  confidence=0.3975
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=2552  true=2  confidence=0.2037
+node=726  true=2  confidence=0.1978
+node=1922  true=3  confidence=0.1903 <-- removed
+node=293  true=2  confidence=0.1954
+purity: 0.2500 -> 0.0000  (delta=-0.2500)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=1230  true=1  confidence=0.8249 <-- removed
+node=2598  true=1  confidence=0.8697
+node=1231  true=1  confidence=0.9156
+node=1178  true=1  confidence=0.9994
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 5
+node=1336  true=3  confidence=0.1625
+node=1335  true=3  confidence=0.1704
+node=1027  true=6  confidence=0.1589 <-- removed
+node=378  true=6  confidence=0.1794
+purity: 0.0000 -> 0.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 3
+node=1722  true=3  confidence=0.9591
+node=2592  true=3  confidence=0.8955 <-- removed
+node=1255  true=3  confidence=0.9756
+node=1614  true=3  confidence=0.9095
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=1663  true=1  confidence=0.3815
+node=2504  true=1  confidence=0.4350
+node=168  true=1  confidence=0.7363
+node=2603  true=2  confidence=0.2328 <-- removed
+purity: 0.7500 -> 1.0000  (delta=+0.2500)
+
+[Refinement Diagnostic]
+LLM bundle label: 1
+node=860  true=1  confidence=0.7842 <-- removed
+node=1911  true=1  confidence=0.8972
+node=1184  true=1  confidence=0.9147
+node=934  true=1  confidence=0.8939
+purity: 1.0000 -> 1.0000  (delta=+0.0000)
+
+[Refinement Diagnostic]
+LLM bundle label: 5
+node=1809  true=0  confidence=0.1613
+node=1830  true=0  confidence=0.1600 <-- removed
+node=2071  true=0  confidence=0.1636
+node=2585  true=0  confidence=0.1621
+purity: 0.0000 -> 0.0000  (delta=+0.0000)
+[Refinement] Bundle sizes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4] -> [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+Accuracy: 0.6679 ± 0.0000, Time: 3.1691 ± 0.0000
